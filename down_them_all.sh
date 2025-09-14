@@ -22,9 +22,9 @@ declare -a wheel_abis=(
 declare -a wheel_platforms=(
 	"macosx_10_13_x86_64"
 	"macosx_11_0_arm64"
-	"manylinux_2_17_x86_64.manylinux2014_x86_64"
-	"manylinux_2_17_aarch64.manylinux2014_aarch64"
-	"manylinux_2_17_ppc64le.manylinux2014_ppc64le"
+	"manylinux2014_x86_64.manylinux_2_17_x86_64"
+	"manylinux2014_aarch64.manylinux_2_17_aarch64"
+	"manylinux2014_ppc64le.manylinux_2_17_ppc64le"
 	"win_amd64")
 
 for abi in "${wheel_abis[@]}"
